@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>GRE VERBAL PREP</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./revise.html">Revise</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="padding-left: 40%; margin-top: 20px">
+      Hello , lets start the quiz
+    </div>
+    <div style="border-style: solid; padding-left: 40%; margin-top: 20px">
+      <div>
+        <span id="questionNumber">1</span>) What is the synonym of
+        <span id="question"></span>
+      </div>
+      <form>
+        <input
+          type="radio"
+          id="option1rad"
+          name="fav_language"
+          value="option1"
+        />
+        <label for="option1" id="option1val">option1</label><br />
+        <input
+          type="radio"
+          id="option2rad"
+          name="fav_language"
+          value="option2"
+        />
+        <label for="option2" id="option2val">option2</label><br />
+        <input
+          type="radio"
+          id="option3rad"
+          name="fav_language"
+          value="option3"
+        />
+        <label for="option3" id="option3val">option3</label><br />
+        <input
+          type="radio"
+          id="option4rad"
+          name="fav_language"
+          value="option4"
+        />
+        <label for="option4" id="option4val">option4</label>
+      </form>
+      <button type="button" class="btn btn-primary" id="button">
+        Save and Next
+      </button>
+    </div>
+    <div>Your score is <span id="result"></span></div>
+    <div>Your wrongs are <span id="wrongs"></span></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./verbal.js"></script>
+  </body>
+</html>
