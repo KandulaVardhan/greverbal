@@ -26,6 +26,35 @@ const vocabs = {
   burlesque: "a variety show - skit/ farce/ striptease",
   cacophony: "a harsh, discordant mixture of sounds - racket/ noise/ clamor",
   chronic: "constant/ continuing/ persistent",
+  coda: "concluding event",
+  confound: "to prove a theory wrong",
+  deign: "do something that one considers to be beneath one's dignity",
+  disingenous: "not candid/sincere - deceitful",
+  docile:
+    "ready to accept control/instructions - submissive/ compliant/ obedient/ pliant",
+  doff: "remove an item of clothing",
+  dote: "extremely fond of - adore",
+  endow: "provide with a quality/ ability/ asset - bless",
+  ephemeral: "lasting for a very short time - fleeting",
+  ethos: "characteristic spirit of community - atmosphere",
+  facetious:
+    "treating issues with deliberately inappropriate humor - flippant/ glib/ tongue-in-cheek",
+  faction: "section/ contingent",
+  fallow: "inactive/ dormant/ quiet/ slack",
+  falter: "move unsteadily - stumble/ fumble",
+  flail: "struggle uselessly - flounder/ thrash/ threst/ squirm",
+  fluke: "unlikely chance occurence",
+  forage: "search of food - hunt/ grub",
+  fortuitous: " happening by a lucky chance - fortunate/ opportune",
+  fringe: "the unorthodox wing of a group - peripheral",
+  garner: "collect/ amass",
+  gist: "the essence of text - main idea/ quintessence",
+  gossamer:
+    "used to refer something very thin/ light/ insubstantial/ delicate - gauzy/ fine",
+  grovel: "show fear to obtain forgiveness - be servile/ suck up/ flatter",
+  harangue: "lengthy and aggressive speech - tirade/ diatribe/ rant",
+  impetuous: "acting quickly without thought/ care - impulsive/ hasty/ rash",
+  indictment: "formal charge of serious crime- arraignment/ citation",
 };
 if (window.location.href.search("/index.html") != -1) {
   const questions = Object.keys(vocabs);
