@@ -128,7 +128,7 @@ const vocabs = {
 if (window.location.href.search("/index.html") != -1) {
   const questions = Object.keys(vocabs);
   const answers = Object.values(vocabs);
-  let size = 10;
+  let size = questions.length;
   const shuffledArray = questions.sort(() => 0.5 - Math.random()); // shuffles array
   const shuffledQuestions = shuffledArray.slice(0, size); // gets first n elements after shuffle
   let currIndex = 0;
