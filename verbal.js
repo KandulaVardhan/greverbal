@@ -124,6 +124,34 @@ const vocabs = {
   wizened: "shriveled/ wrinkled with age - lined/ creased/ withered",
   wry: "ironic/ sardonic/ satirical",
   zeal: "passion/ fervor",
+  abasement: "humiliation/ belittlement",
+  abate: "become less intense - subside/ diedown",
+  accession: "process of joining an association",
+  acerbic: "sharp style of speaking - sardonic/ caustic",
+  acolyte: "assistant/ helper/ follower",
+  acumen: "ability to make good judgements - astuteness/ awareness/ acuity",
+  apostle:
+    "a pioneering advocate of particular cause - proponent/ promoter/ propagandist",
+  apprise: "inform/ tell",
+  armada: "fleet of warships - flotilla/ squadron",
+  arson:
+    "a criminal act of deliberately setting fire to property - incendiarism/ pyromania",
+  ascribe: "assign to/ blame on",
+  barrage: "concentrated outpouring, as of questions/ blows",
+  bevy: "group/ crowd/ cluster",
+  boor: "ill-mannered person - lout/ oaf/ ruffian",
+  bucolic:
+    "relating to the pleasant aspects of the country life - rustic/ rural/ pastoral",
+  canonical: "belonging to the literary canon - established/ authoritative",
+  capricious:
+    "given to sudden & unaccountable changes of mood - fickle/ inconstant/ changeable",
+  chauvinism:
+    "excessive loyalty for one's own cause - jingoism/ excessive patriotism/ sectariarism",
+  circumspect: "wary & unwilling to take risks - careful",
+  coalesce: "merge/ unite/ fuse",
+  coffer: "resources/ money/ finances",
+  condone: "excuse/ let pass/ disregard",
+  contrite: "regretful/ sorry/ apologetic",
 };
 if (window.location.href.search("/index.html") != -1) {
   const questions = Object.keys(vocabs);
